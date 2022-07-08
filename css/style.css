@@ -1,0 +1,30 @@
+@charset "utf-8";
+*{margin:0;padding:0;box-sizing:border-box;}
+
+html,body{background:#eee;}
+
+#wrapper{
+    position:relative;
+    width:100%;
+    padding:2rem;
+}
+
+[id *= "wrap-"]{
+    position:relative;
+    margin:1rem auto;
+}
+
+table{
+    position:relative;
+    table-layout:fixed;width:100%;border-collapse:separate;border-spacing:0;
+    border-top:3px solid dodgerblue;}
+caption{font-size:14px; font-weight:bold; margin-bottom:1em;}
+td,th{
+    position:relative;
+    padding:.5em 1em;
+    border:1px solid black;}
+
+th{text-align:center; background:rgb(207, 212, 230);}
+td{background:#fff;}
+
+.changed{font-size:1.2rem; color:red; font-style:italic;}
