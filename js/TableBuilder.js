@@ -123,6 +123,7 @@ class TableBuilder{
             for(const data of DATA){
                 const title = Object.keys(data)[0];
                 const $th = domMaker('TH',data[title]);
+                $th.title = title;
                 $tr.appendChild($th);
             }//for-th
             $thead.appendChild($tr);
